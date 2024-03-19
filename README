@@ -1,0 +1,33 @@
+                            EoL Keyboard Remapper
+
+A personal keyboard remapping tool that does the following in order:
+
+    1. Swap Escape and CapsLock;
+
+    2. If Escape is pressed along with H, J, K, or L, remap them to the
+    according arrow keys; If Escape is pressed alone, the KEY_ESC event is sent
+    only when Escape is unpressed; Ignore the holding events of Escape.
+
+Note that when mentioning Escape in 2., due to 1., it's actually Capslock on the
+physical keyboard.
+
+[Operation System]
+
+    Tests passed on Arch Linux with kernel version 6.8.1.zen1-1.
+
+[Prerequisites]
+
+    Interception Tools: https://gitlab.com/interception/linux/tools
+
+[Compilation]
+
+    `$ make`
+
+[Installation]
+
+    `# make install`
+
+[Usage]
+    
+    `# systemctl start udevmon.service`
+
