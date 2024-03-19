@@ -13,21 +13,21 @@ physical keyboard.
 
 [Operation System]
 
-    Tests passed on Arch Linux with kernel version 6.8.1.zen1-1.
+Tests passed on Arch Linux with kernel version 6.8.1.zen1-1.
 
 [Prerequisites]
 
-    Interception Tools: https://gitlab.com/interception/linux/tools
+Interception Tools: https://gitlab.com/interception/linux/tools
 
 [Compilation]
 
-    `$ make`
+`$ make`
 
 [Installation]
 
-    `# make install`
+`# make install`
 
 [Usage]
     
-    `# systemctl start udevmon.service`
+`# systemctl start udevmon.service`
 
