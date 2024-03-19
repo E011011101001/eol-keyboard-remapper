@@ -1,0 +1,4 @@
+- JOB: "intercept -g $DEVNODE | eol-keyboard-remapper | uinput -d $DEVNODE"
+  DEVICE:
+    EVENTS:
+      EV_KEY: [[KEY_CAPSLOCK, KEY_ESC, KEY_H, KEY_J, KEY_K, KEY_L]]
