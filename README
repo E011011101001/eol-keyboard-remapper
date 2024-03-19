@@ -11,21 +11,26 @@ A personal keyboard remapping tool that does the following in order:
 Note that when mentioning Escape in 2., due to 1., it's actually Capslock on the
 physical keyboard.
 
+
 [Operation System]
 
     Tests passed on Arch Linux with kernel version 6.8.1.zen1-1.
+
 
 [Prerequisites]
 
     Interception Tools: https://gitlab.com/interception/linux/tools
 
+
 [Compilation]
 
     `$ make`
 
+
 [Installation]
 
     `# make install`
+
 
 [Usage]
     
